@@ -1,0 +1,4 @@
+pip install python-telegram-bot
+pip install python-dotenv
+pip install matplotlib
+pip install ipython
