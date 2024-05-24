@@ -1,0 +1,12 @@
+     [Unit]
+     Description=hw16
+     After=network.target
+
+     [Service]
+     Type=simple
+     WorkingDirectory=/home/trg/hw16
+     ExecStart=/usr/bin/python3 bot.py
+     Restart=always
+
+     [Install]
+     WantedBy=multi-user.target
